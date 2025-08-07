@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* .Intro {
   min-height: 100vh;
+  background: linear-gradient(135deg, #eae6ff 50%, #0065ff 100%);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}*/
+
+.container-1 {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  margin-top: 10px;
+}
+.data-1{
+    font-size: xx-large;
+    font-family: 'Segoe UI';
+}
+.text-section{
+ max-width: 550px;
+}
+.Input-feild input{
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 250px;
+}
+.button-style button{
+   background-color: #0052cc;
   color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} 
+
+ .Front-page{
+  
+  min-height: 100vh;
+  background: linear-gradient(350deg, #eae6ff 50%, #0065ff 100%);
+  
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+ }
+ .Template{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+ }
+ .text-section2{
+  font-weight:bold;
+  font-size: xx-large;
+  margin: 50px;
+ }
+ .start-doing button{
+  color:#0065ff;
+  
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ margin-bottom: 50px;
+ }
+ .text-section3{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+ }
+ 
+ .board-img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+.Template{
+   
+  min-height: 100vh;
+  background: linear-gradient(135deg, white 70%,#eae6ff 10%);
+}
+.text2 {
+  font-size: 32px;        
+  font-weight: 700;        
+  color: #172B4D;          
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;   
+  margin-left: 50px;   
+}
+.text3{
+  margin-left: 50px;
+}.paragraph2-container {
+  display: flex;
+ 
+  align-items: flex-start;
+  padding: 40px 60px;
+  gap: 40px; 
+  
 }
 
-.App-link {
-  color: #61dafb;
+.paragraph2-content {
+  flex: 1;
+  max-width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.view-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #44546f;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.view-title {
+  font-size: 24px;
+  color: #172b4d;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.view-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #44546f;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #0c66e4;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.board-img2 {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.para3-container {
+  display: flex;
+
+  align-items: flex-start;
+  padding: 40px 60px;
+  gap: 40px;
+}
+
+.para3-content {
+  flex: 1;
+  max-width: 300px;
+}
+
+.section-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #44546f;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #172b4d;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #44546f;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #0c66e4;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.para3-image img {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.card {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1rem;
+}
+.Blue-box{
+  padding:50px 50px 50px 50px;
+  background-color:#e6fcff;
+  margin: 100px 100px 100px 100px;
+}
+ .text-4{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+.Footer {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2; /* Optional background */
+}
+
+.link {
+  color: black;
+  margin-bottom: 10px; 
+}
+
+
+.link a {
+  color: black;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: #555;
 }
